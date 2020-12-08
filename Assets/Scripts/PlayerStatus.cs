@@ -51,5 +51,11 @@ public class PlayerStatus : MonoBehaviour
 
     }
 
+    public bool CalcularResultado()
+    {
+        //retorna true para vitoria e false para derrota
+        return true;
+    }
+
 
 }
